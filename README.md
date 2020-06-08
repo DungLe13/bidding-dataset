@@ -17,18 +17,17 @@ For this dataset, the list of pre-defined tags are:
 | 6 | 調達開始日 | Start Date of Procurement | datetime |   |
 | 7 | 調達終了日 | End Date of Procurement | datetime |   |
 | 8 | 公告日 | Public Announcement Date | datetime |   |
-| 9 | 仕様書交付期限 | Deadline for Delivery of the Specification | datetime |   |
-| 10 | 質問票締切日時 | Deadline for Questionnaire | datetime |   |
-| 11 | 資格申請締切日時 | Deadline for Applying Qualification | datetime |   |
-| 12 | 入札書締切日時 | Deadline for Bidding | datetime |   |
-| 13 | 開札日時 | Opening Application Date | datetime |   |
-| 14 | 質問箇所 所属/担当者 | PIC for Inquiry of Questions | text |   |
-| 15 | 質問箇所 TEL/FAX | TEL/FAX for Inquiry of Questions | text |   |
-| 16 | 資格申請送付先 | Address for Submitting Application | text |   |
-| 17 | 資格申請送付先 部署/担当者名 | Department/PIC for Submitting Application | text |   |
-| 18 | 入札書送付先 | Address for Submitting Bid | text |   |
-| 19 | 入札書送付先 部署/担当者名 | Department/PIC for Submitting Bid | text |   |
-| 20 | 開札場所 | Place of Opening Bid | text |   |
+| 9 | 質問票締切日時 | Deadline for Questionnaire | datetime |   |
+| 10 | 資格申請締切日時 | Deadline for Applying Qualification | datetime |   |
+| 11 | 入札書締切日時 | Deadline for Bidding | datetime |   |
+| 12 | 開札日時 | Opening Application Date | datetime |   |
+| 13 | 質問箇所 所属/担当者 | PIC for Inquiry of Questions | text |   |
+| 14 | 質問箇所 TEL/FAX | TEL/FAX for Inquiry of Questions | text |   |
+| 15 | 資格申請送付先 | Address for Submitting Application | text |   |
+| 16 | 資格申請送付先 部署/担当者名 | Department/PIC for Submitting Application | text |   |
+| 17 | 入札書送付先 | Address for Submitting Bid | text |   |
+| 18 | 入札書送付先 部署/担当者名 | Department/PIC for Submitting Bid | text |   |
+| 19 | 開札場所 | Place of Opening Bid | text |   |
 
 Note: \
 The tag names in correct answer (excel files) may be different from the list above. It is suggested 
@@ -51,7 +50,7 @@ tag = unicodedata.normalize("NFKC", re.sub('＊|\*|\s+', '', tag))
 
 #### Distribution of Tags
 
-![Distribution of Tags](tag_distribution.png)
+![Distribution of Tags](tag-distribution.png)
 
 Note: the number on x-axis corresponds to tag number in the table above.
 
